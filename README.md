@@ -1,3 +1,14 @@
+---
+title: WikiExplorer
+emoji: 🧠
+colorFrom: indigo
+colorTo: blue
+sdk: streamlit
+sdk_version: "1.35.0"
+app_file: app.py
+pinned: false
+---
+
 # 🧠 WikiExplorer
 
 **WikiExplorer** is a simple yet powerful Streamlit application that allows users to explore and extract information from Wikipedia directly from a user-friendly interface. Just enter a topic, and the app fetches and displays a summary of the topic from Wikipedia.
