@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia Location Explorer</title>
+
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet/dist/leaflet.css"
+    />
+
+    <!-- Local styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🧭 Wikipedia Location Explorer</h1>
+
+      <div class="controls">
+        <label for="language-selector">Language:</label>
+        <select id="language-selector"></select>
+      </div>
+
+      <div id="map"></div>
+      <div id="info">⬆️ Click anywhere on the map to get started</div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Local script -->
+    <script src="script.js"></script>
+  </body>
+</html>
