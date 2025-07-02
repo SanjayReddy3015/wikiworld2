@@ -1,32 +1,38 @@
 ---
-title: WikiExplorer
-emoji: 🧠
-colorFrom: indigo
-colorTo: blue
+title: Country Wikipedia Explorer
+emoji: 🌍
+colorFrom: blue
+colorTo: green
 sdk: streamlit
 sdk_version: "1.35.0"
 app_file: app.py
 pinned: false
 ---
 
-# 🧠 WikiExplorer
+# 🌍 Country Wikipedia Explorer
 
-**WikiExplorer** is a simple yet powerful Streamlit application that allows users to explore and extract information from Wikipedia directly from a user-friendly interface. Just enter a topic, and the app fetches and displays a summary of the topic from Wikipedia.
+An interactive Streamlit app that helps users explore countries through Wikipedia summaries, Wikidata facts, and Folium-based maps with places of interest.
 
----
+## ✨ Features
 
-## 🚀 Features
+- 🌐 Multilingual Wikipedia summaries
+- 🏛️ Capital and population from Wikidata
+- 🗺️ Interactive map with:
+  - 🍽️ Restaurants
+  - 🏛️ Temples
+  - 🎭 Tourist Attractions
+  - 🚇 Transportation
+  - 🏨 Hotels
 
-- 🔍 Search any topic from Wikipedia
-- 📖 View summarized content
-- ⚡ Built using Python and Streamlit
-- ☁️ Deployed on Hugging Face Spaces
+## ⚙️ Tech Stack
 
----
+- Streamlit
+- Folium (Leaflet.js)
+- Geopy + Nominatim
+- Wikipedia / Wikidata / Wikivoyage APIs
 
-## 📦 Requirements
-
-To run this app locally, install the required Python packages:
+## 🚀 Run Locally
 
 ```bash
 pip install -r requirements.txt
+streamlit run app.py
